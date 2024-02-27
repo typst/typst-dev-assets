@@ -1,0 +1,11 @@
+[package]
+name = "typst-dev-assets"
+description = "Assets for testing & docs generation of the Typst compiler."
+categories = ["compilers", "science"]
+keywords = ["markup", "typesetting", "typst"]
+version = "0.10.0"
+authors = ["The Typst Project Developers"]
+edition = "2021"
+homepage = "https://typst.app"
+repository = "https://github.com/typst/typst-dev-assets"
+license = "Apache-2.0"
