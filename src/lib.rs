@@ -15,6 +15,13 @@ macro_rules! files {
 
 /// Get a file by path.
 pub fn get(path: &str) -> Option<&'static [u8]> {
+    let slot;
+    let mut path = path;
+    if path.contains('\\') {
+        slot = path.replace('\\', "/");
+        path = &slot;
+    }
+
     FILES.iter().find(|&&(p, _)| p == path).map(|&(_, d)| d)
 }
 
@@ -112,4 +119,21 @@ files! {
     "text/example.html",
     "text/hello.txt",
     "themes/halcyon.tmTheme",
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_unix_like() {
+        assert!(get("data/zoo.csv").is_some());
+        assert!(get("data/zoos.csv").is_none());
+    }
+
+    #[test]
+    fn test_windows_like() {
+        assert!(get("data\\zoo.csv").is_some());
+        assert!(get("data\\zoos.csv").is_none());
+    }
 }
