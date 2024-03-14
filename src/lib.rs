@@ -58,6 +58,7 @@ files! {
     "data/example.xml",
     "data/hello.xml",
     "data/monday.json",
+    "data/moore.csv",
     "data/toml-types.toml",
     "data/tuesday.json",
     "data/yaml-types.yaml",
