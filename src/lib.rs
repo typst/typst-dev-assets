@@ -29,7 +29,7 @@ pub fn get(path: &str) -> Option<&'static [u8]> {
 pub fn get_by_name(filename: &str) -> Option<&'static [u8]> {
     FILES
         .iter()
-        .find(|&&(p, _)| p.split("/").last() == Some(filename))
+        .find(|&&(p, _)| p.split('/').last() == Some(filename))
         .map(|&(_, d)| d)
 }
 
