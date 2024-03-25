@@ -53,6 +53,7 @@ files! {
     "data/bad.toml",
     "data/bad.xml",
     "data/bad.yaml",
+    "data/big-number.json",
     "data/details.toml",
     "data/example.csv",
     "data/example.xml",
