@@ -91,6 +91,7 @@ files! {
     "fonts/NotoSerifHebrew-Regular.ttf",
     "fonts/PTSans-Regular.ttf",
     "fonts/Roboto-Regular.ttf",
+    "fonts/STIXTwoMath-Regular.otf",
     "fonts/TwitterColorEmoji.ttf",
     "fonts/Ubuntu-Regular.ttf",
     "images/bad.svg",
