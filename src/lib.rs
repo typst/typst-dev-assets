@@ -112,6 +112,7 @@ files! {
     "images/tiger.jpg",
     "images/typing.jpg",
     "plugins/hello.wasm",
+    "plugins/hello-mut.wasm",
     "plugins/plugin-oob.wasm",
     "screenshots/1-writing-app.png",
     "screenshots/1-writing-upload.png",
