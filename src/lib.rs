@@ -99,6 +99,7 @@ files! {
     "images/cylinder.svg",
     "images/diagram.svg",
     "images/docs.svg",
+    "images/f.jpg",
     "images/f2t.jpg",
     "images/glacier.jpg",
     "images/graph.png",
