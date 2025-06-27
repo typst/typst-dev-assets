@@ -79,6 +79,7 @@ files! {
     "fonts/InriaSerif-Regular.ttf",
     "fonts/NotoColorEmoji-Regular-COLR.subset.ttf",
     "fonts/NotoSansArabic-Regular.ttf",
+    "fonts/NotoSansMath-Regular.ttf",
     "fonts/NotoSansSymbols2-Regular.ttf",
     "fonts/NotoSansThai-Regular.ttf",
     "fonts/NotoSerifCJKjp-Regular.otf",
