@@ -53,25 +53,46 @@ THE SOFTWARE.
 ================================================================================
 The SIL Open Font License Version 1.1 applies to:
 
-* IBM Plex fonts in assets/fonts/IBMPlex*.ttf
+* IBM Plex fonts in files/fonts/IBMPlex*.ttf
   Copyright © 2017 IBM Corp. with Reserved Font Name "Plex"
   (https://github.com/IBM/plex)
 
-* Noto fonts in assets/fonts/Noto*.ttf
+* Noto fonts in files/fonts/Noto*.{otf,ttf}
   Copyright 2018 The Noto Project Authors
   (https://github.com/googlei18n/noto-fonts)
 
-* PT Sans fonts in assets/fonts/PTSans*.ttf
+* PT Sans fonts in files/fonts/PTSans*.ttf
   Copyright (c) 2010, ParaType Ltd. (http://www.paratype.com/public),
   with Reserved Font Names "PT Sans" and "ParaType".
 
-* Fira Math fonts in assets/fonts/FiraMath*.otf
+* Fira Math fonts in files/fonts/FiraMath*.otf
   Copyright (C) 2018--2021 by Xiangdong Zeng <xdzeng96@gmail.com>
   (https://github.com/firamath/firamath)
 
-* Inria fonts in assets/fonts/Inria*.ttf
+* Inria fonts in files/fonts/Inria*.ttf
   Copyright 2017 The Inria Sans Project Authors
   (https://github.com/BlackFoundryCom/InriaFonts)
+
+* XITS fonts in files/fonts/XITS*.otf
+  Copyright (c) 2001-2010, STI Pub Companies, consisting of the American
+  Institute of Physics, the American Chemical Society, the American Mathematical
+  Society, the American Physical Society, Elsevier, Inc., and The Institute of
+  Electrical and Electronic Engineers, Inc. (www.stixfonts.org), with Reserved
+  Font Name STIX Fonts, STIX Fonts (TM) is a trademark of The Institute of
+  Electrical and Electronics Engineers, Inc.
+  Copyright (c) 1998-2003, MicroPress, Inc. (www.micropress-inc.com), with
+  Reserved Font Name TM Math.
+  Copyright (c) 1990, Elsevier, Inc.
+  Copyright (c) 2014, 2015, (URW)++ Design & Development.
+  Copyright (c) 2009-2019, Khaled Hosny.
+  Copyright (c) 2019, Daniel Benjamin Miller.
+  (https://github.com/aliftype/xits)
+
+* STIX Two fonts in files/fonts/STIXTwo*.otf
+  Copyright 2001-2021 The STIX Fonts Project Authors
+  (https://github.com/stipub/stixfonts), with Reserved Font Name "TM Math".
+  STIX Fonts™ is a trademark of The Institute of Electrical and Electronics
+  Engineers, Inc.
 
 -----------------------------------------------------------
 SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
@@ -164,7 +185,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
 ================================================================================
 The Apache License Version 2.0 applies to:
 
-* Roboto fonts in assets/fonts/Roboto*.ttf
+* Roboto fonts in files/fonts/Roboto*.ttf
   (https://github.com/googlefonts/roboto)
 
                                  Apache License
@@ -348,7 +369,7 @@ The Apache License Version 2.0 applies to:
 ================================================================================
 The Ubuntu Font License Version 1.0 applies to:
 
-* Ubuntu fonts in assets/fonts/Ubuntu*.ttf
+* Ubuntu fonts in files/fonts/Ubuntu*.ttf
   (https://design.ubuntu.com/font/)
 
 -------------------------------
@@ -453,7 +474,7 @@ DEALINGS IN THE FONT SOFTWARE.
 ================================================================================
 The Creative Commons Attribution 4.0 International License applies to:
 
-* Twitter Color Emoji font in assets/fonts/TwitterColorEmoji.ttf
+* Twitter Color Emoji font in files/fonts/TwitterColorEmoji.ttf
   Copyright 2016 Brad Erickson
   Copyright 2016 Twitter, Inc.
   (https://github.com/eosrei/twemoji-color-font)
