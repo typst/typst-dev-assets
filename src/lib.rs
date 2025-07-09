@@ -95,6 +95,7 @@ files! {
     "fonts/STIXTwoMath-Regular.otf",
     "fonts/TwitterColorEmoji.ttf",
     "fonts/Ubuntu-Regular.ttf",
+    "fonts/XITSMath-Regular.otf",
     "images/bad.svg",
     "images/chinese.svg",
     "images/cylinder.svg",
