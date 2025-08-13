@@ -29,7 +29,7 @@ pub fn get(path: &str) -> Option<&'static [u8]> {
 pub fn get_by_name(filename: &str) -> Option<&'static [u8]> {
     FILES
         .iter()
-        .find(|&&(p, _)| p.split('/').last() == Some(filename))
+        .find(|&&(p, _)| p.split('/').next_back() == Some(filename))
         .map(|&(_, d)| d)
 }
 
@@ -46,8 +46,8 @@ pub fn fonts() -> impl Iterator<Item = &'static [u8]> {
 files! {
     "bib/bad.bib",
     "bib/scifi-authors.yaml",
-    "bib/works_too.bib",
     "bib/works.bib",
+    "bib/works_too.bib",
     "data/bad.csv",
     "data/bad.json",
     "data/bad.toml",
@@ -111,13 +111,13 @@ files! {
     "images/molecular.jpg",
     "images/monkey.svg",
     "images/pattern.svg",
-    "images/rhino.png",
     "images/relative.svg",
+    "images/rhino.png",
     "images/tetrahedron.svg",
     "images/tiger.jpg",
     "images/typing.jpg",
-    "plugins/hello.wasm",
     "plugins/hello-mut.wasm",
+    "plugins/hello.wasm",
     "plugins/plugin-oob.wasm",
     "screenshots/1-writing-app.png",
     "screenshots/1-writing-upload.png",
@@ -133,6 +133,8 @@ files! {
 
 #[cfg(test)]
 mod tests {
+    use std::path::{Path, PathBuf};
+
     use super::*;
 
     #[test]
@@ -145,5 +147,46 @@ mod tests {
     fn test_windows_like() {
         assert!(get("data\\zoo.csv").is_some());
         assert!(get("data\\zoos.csv").is_none());
+    }
+
+    #[test]
+    fn test_list_sorted() {
+        for window in FILES.windows(2) {
+            let (a, _) = window[0];
+            let (b, _) = window[1];
+            if a > b {
+                panic!("{a:?} and {b:?} are out of order");
+            }
+        }
+    }
+
+    #[test]
+    fn test_all_files_included() {
+        let root = Path::new("files");
+        walk(root, &mut |path| {
+            let stringified = path
+                .strip_prefix(root)
+                .unwrap()
+                .to_string_lossy()
+                .replace(std::path::MAIN_SEPARATOR_STR, "/");
+            let data = std::fs::read(&path).unwrap();
+            if get(&stringified) != Some(data.as_slice()) {
+                panic!("{} is not listed in {}", path.display(), file!());
+            }
+        })
+    }
+
+    fn walk(dir: &Path, f: &mut impl FnMut(PathBuf)) {
+        for entry in std::fs::read_dir(dir).unwrap() {
+            let path = entry.unwrap().path();
+            if path.is_dir() {
+                walk(&path, f);
+            } else if let Some(stem) = path.file_stem()
+                && let Some(stem_str) = stem.to_str()
+                && !stem_str.starts_with(".")
+            {
+                f(path);
+            }
+        }
     }
 }
