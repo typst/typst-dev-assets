@@ -97,6 +97,7 @@ files! {
     "fonts/Ubuntu-Regular.ttf",
     "fonts/XITSMath-Regular.otf",
     "images/bad.svg",
+    "images/base14-fonts.pdf",
     "images/chinese.svg",
     "images/cylinder.svg",
     "images/diagram.svg",
