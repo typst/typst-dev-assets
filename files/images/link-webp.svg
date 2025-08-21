@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 20" style="background:#fff" width="50">
+<circle r="11" cx="10" cy="10" fill="red" />
+<image width="40" height="20" href="small.webp" x="20" y="0" />
+<circle r="20" cx="10" cy="10" fill="none" stroke="red" />
+<circle r="30" cx="10" cy="10" fill="none" stroke="red" />
+<circle r="40" cx="10" cy="10" fill="none" stroke="red" />
+<circle r="50" cx="10" cy="10" fill="none" stroke="red" />
+</svg>
