@@ -65,6 +65,7 @@ files! {
     "data/yaml-types.yaml",
     "data/zoo.csv",
     "data/zoo.json",
+    "fonts/CascadiaCode-Regular.ttf",
     "fonts/FiraMath-Regular.otf",
     "fonts/IBMPlexSans-Bold.ttf",
     "fonts/IBMPlexSans-Light.ttf",
