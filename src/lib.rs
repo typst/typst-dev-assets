@@ -107,6 +107,7 @@ files! {
     "images/f2t.jpg",
     "images/glacier.jpg",
     "images/graph.png",
+    "images/heron.jpg",
     "images/linked.svg",
     "images/logo.svg",
     "images/matplotlib.pdf",
