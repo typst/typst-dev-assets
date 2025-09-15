@@ -103,6 +103,7 @@ files! {
     "images/chart-bad-regular.png",
     "images/chart-good.png",
     "images/chinese.svg",
+    "images/color-contrast.png",
     "images/cylinder.svg",
     "images/diagram.svg",
     "images/diagrams.pdf",
