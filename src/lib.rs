@@ -105,6 +105,7 @@ files! {
     "images/diagrams.pdf",
     "images/docs.svg",
     "images/f2t.jpg",
+    "images/f2t.png",
     "images/glacier.jpg",
     "images/graph.png",
     "images/linked.svg",
