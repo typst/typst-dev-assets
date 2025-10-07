@@ -126,6 +126,7 @@ files! {
     "images/small.jpg",
     "images/small.png",
     "images/small.webp",
+    "images/star.pdf",
     "images/tetrahedron.svg",
     "images/tiger.jpg",
     "images/typing.jpg",
