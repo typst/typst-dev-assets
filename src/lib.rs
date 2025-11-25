@@ -94,6 +94,7 @@ files! {
     "fonts/PTSans-Regular.ttf",
     "fonts/Roboto-Regular.ttf",
     "fonts/STIXTwoMath-Regular.otf",
+    "fonts/SourceSerif4-Regular.otf",
     "fonts/TwitterColorEmoji.ttf",
     "fonts/Ubuntu-Regular.ttf",
     "fonts/XITSMath-Regular.otf",
