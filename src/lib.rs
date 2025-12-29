@@ -78,6 +78,7 @@ files! {
     "fonts/InriaSerif-BoldItalic.ttf",
     "fonts/InriaSerif-Italic.ttf",
     "fonts/InriaSerif-Regular.ttf",
+    "fonts/LibertinusMath-Regular.otf",
     "fonts/NotoColorEmoji-Regular-COLR.subset.ttf",
     "fonts/NotoSansArabic-Regular.ttf",
     "fonts/NotoSansMath-Regular.ttf",
