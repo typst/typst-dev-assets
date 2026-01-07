@@ -53,7 +53,7 @@ THE SOFTWARE.
 ================================================================================
 The SIL Open Font License Version 1.1 applies to:
 
-* IBM Plex fonts in files/fonts/IBMPlex*.ttf
+* IBM Plex fonts in files/fonts/IBMPlex*.{otf,ttf}
   Copyright © 2017 IBM Corp. with Reserved Font Name "Plex"
   (https://github.com/IBM/plex)
 
@@ -64,10 +64,6 @@ The SIL Open Font License Version 1.1 applies to:
 * PT Sans fonts in files/fonts/PTSans*.ttf
   Copyright (c) 2010, ParaType Ltd. (http://www.paratype.com/public),
   with Reserved Font Names "PT Sans" and "ParaType".
-
-* Fira Math fonts in files/fonts/FiraMath*.otf
-  Copyright (C) 2018--2021 by Xiangdong Zeng <xdzeng96@gmail.com>
-  (https://github.com/firamath/firamath)
 
 * Inria fonts in files/fonts/Inria*.ttf
   Copyright 2017 The Inria Sans Project Authors
@@ -101,6 +97,28 @@ The SIL Open Font License Version 1.1 applies to:
 * Cascadia fonts in files/fonts/Cascadia*.ttf
   Copyright (c) 2019 - Present, Microsoft Corporation,
   with Reserved Font Name Cascadia Code.
+
+* Libertinus fonts in files/fonts/Libertinus*.otf
+  Copyright © 2012-2024 The Libertinus Project Authors,
+  with Reserved Font Name "Linux Libertine", "Biolinum", "STIX Fonts".
+
+* Asana Math font in files/fonts/Asana-Math.otf
+  Copyright (c) 2007-2025, Apostolos Syropoulos (<asyropoulos@yahoo.com),
+  with Reserved Font Name Asana Math.
+  Copyright (c) 2000 Young Ryu,
+  with Reserved Font Name pxfonts.
+  Copyright (c) 1997, 1999 Claudio Beccari, 
+  with Reserved Font Name gsmn1000.
+
+* Pennstander fonts in files/fonts/Pennstander*.otf
+  Copyright 2020 The Grandstander Project Authors
+  (https://github.com/Etcetera-Type-Co/Grandstander)
+  Copyright 2024 Julius Ross
+
+* Concrete Math font in files/fonts/Concrete-Math.otf
+  Copyright 2022-2025 Daniel Flipo
+
+* Garamond Math font in files/fonts/Garamond-Math.otf
 
 -----------------------------------------------------------
 SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
@@ -941,4 +959,41 @@ the source note.
 
 
 URL: http://www.govdata.de/dl-de/by-2-0
+================================================================================
+
+================================================================================
+The GUST Font License applies to:
+
+* TeX Gyre Math fonts in files/fonts/texgyre*-math.otf
+  Copyright 2013-2014 for TeX Gyre math extensions by B. Jackowski,
+  P. Strzelczyk and P. Pianowski (on behalf of TeX Users Groups).
+
+% This is version 1.0, dated 22 June 2009, of the GUST Font License.
+% (GUST is the Polish TeX Users Group, https://www.gust.org.pl)
+%
+% For the most recent version of this license see
+% https://www.gust.org.pl/fonts/licenses/GUST-FONT-LICENSE.txt
+% or
+% https://tug.org/fonts/licenses/GUST-FONT-LICENSE.txt
+%
+% This work may be distributed and/or modified under the conditions
+% of the LaTeX Project Public License, either version 1.3c of this
+% license or (at your option) any later version.
+% 
+% Please also observe the following clause:
+% 1) it is requested, but not legally required, that derived works be
+%    distributed only after changing the names of the fonts comprising this
+%    work and given in an accompanying "manifest", and that the
+%    files comprising the Work, as listed in the manifest, also be given
+%    new names. Any exceptions to this request are also given in the
+%    manifest.
+%    
+%    We recommend the manifest be given in a separate file named
+%    MANIFEST-<fontid>.txt, where <fontid> is some unique identification
+%    of the font family. If a separate "readme" file accompanies the Work, 
+%    we recommend a name of the form README-<fontid>.txt.
+%
+% The latest version of the LaTeX Project Public License is in
+% https://www.latex-project.org/lppl.txt and version 1.3c or later
+% is part of all distributions of LaTeX version 2006/05/20 or later.
 ================================================================================
