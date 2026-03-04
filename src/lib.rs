@@ -122,6 +122,7 @@ files! {
     "images/heron.jpg",
     "images/linked.svg",
     "images/logo.svg",
+    "images/lynx.jpg",
     "images/matplotlib.pdf",
     "images/molecular.jpg",
     "images/monkey.svg",
