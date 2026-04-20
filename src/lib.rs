@@ -140,6 +140,7 @@ files! {
     "images/tetrahedron.svg",
     "images/tiger.jpg",
     "images/typing.jpg",
+    "latex/unicode-math-table.tex",
     "plugins/hello-mut.wasm",
     "plugins/hello.wasm",
     "plugins/plugin-oob.wasm",
