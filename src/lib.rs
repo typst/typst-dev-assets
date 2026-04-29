@@ -170,6 +170,7 @@ files! {
     "images/tetrahedron.svg",
     "images/tiger.jpg",
     "images/typing.jpg",
+    "images/typst.svg",
     "latex/unicode-math-table.tex",
     "plugins/hello-mut.wasm",
     "plugins/hello.wasm",
