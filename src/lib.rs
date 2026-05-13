@@ -182,6 +182,7 @@ files! {
     "screenshots/3-advanced-team-settings.png",
     "syntaxes/SExpressions.sublime-syntax",
     "text/bad.txt",
+    "text/emoji-ordering.txt",
     "text/example.html",
     "text/hello.txt",
     "themes/halcyon.tmTheme",
