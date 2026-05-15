@@ -119,6 +119,7 @@ files! {
     "fonts/PTSans-Regular.ttf",
     "fonts/PennstanderMath-Regular.otf",
     "fonts/Roboto-Regular.ttf",
+    "fonts/RobotoFlex[GRAD,XOPQ,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght].ttf",
     "fonts/STIXTwoMath-Regular.otf",
     "fonts/SourceSerif4-Regular.otf",
     "fonts/TwitterColorEmoji.ttf",
