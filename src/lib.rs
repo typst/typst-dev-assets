@@ -48,6 +48,7 @@ files! {
     "bib/scifi-authors.yaml",
     "bib/works.bib",
     "bib/works_too.bib",
+    "data/bad.cbor",
     "data/bad.csv",
     "data/bad.json",
     "data/bad.toml",
