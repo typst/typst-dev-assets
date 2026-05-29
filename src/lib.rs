@@ -130,6 +130,7 @@ files! {
     "icons/16-check.svg",
     "icons/16-chevron-right.svg",
     "icons/16-close.svg",
+    "icons/16-code.svg",
     "icons/16-copy.svg",
     "icons/16-docs-dark.svg",
     "icons/16-hamburger-dark.svg",
