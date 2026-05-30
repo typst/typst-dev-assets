@@ -167,6 +167,7 @@ files! {
     "images/small.jpeg",
     "images/small.jpg",
     "images/small.png",
+    "images/small.svg",
     "images/small.webp",
     "images/star.pdf",
     "images/tetrahedron.svg",
