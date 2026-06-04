@@ -124,6 +124,21 @@ The SIL Open Font License Version 1.1 applies to:
   Copyright (c) 2021 Alfredo Marco Pradil (https://hanken.co/ | hello@hanken.co)
   with Reserved Font Name HK Grotesk
 
+* Cantarell fonts in files/fonts/Cantarell*.otf
+  Copyright (c) 2009--2019, The Cantarell Authors
+
+* Fraunces fonts in files/fonts/Fraunces*.otf
+  Copyright 2018 The Fraunces Project Authors
+  (https://github.com/undercasetype/Fraunces)
+
+* Mona Sans fonts in files/fonts/Mona*.ttf
+  Copyright 2022 The Mona Sans Project Authors
+  (https://github.com/github/mona-sans), with Reserved Font Name "Mona"
+
+* Roboto Flex fonts in files/fonts/RobotoFlex*.ttf
+  Copyright 2017 The Roboto Flex Project Authors
+  (https://github.com/TypeNetwork/Roboto-Flex)
+
 -----------------------------------------------------------
 SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
 -----------------------------------------------------------
