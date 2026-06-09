@@ -107,6 +107,7 @@ files! {
     "fonts/InriaSerif-Regular.ttf",
     "fonts/LibertinusMath-Regular.otf",
     "fonts/MonaSansVF[wdth,wght,opsz,ital].ttf",
+    "fonts/NotoColorEmoji-Regular-CBDT.subset.ttf",
     "fonts/NotoColorEmoji-Regular-COLR.subset.ttf",
     "fonts/NotoSans-Regular.ttf",
     "fonts/NotoSansArabic-Regular.ttf",
