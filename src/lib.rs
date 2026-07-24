@@ -144,6 +144,7 @@ files! {
     "icons/16-hamburger-dark.svg",
     "icons/16-link.svg",
     "icons/16-search-gray.svg",
+    "icons/16-settings.svg",
     "icons/16-warn.svg",
     "icons/32-reference-c.svg",
     "icons/32-tutorial-c.svg",
