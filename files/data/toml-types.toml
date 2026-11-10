@@ -4,6 +4,7 @@ float = 3.14
 boolean = true
 date_time = 2023-02-01T15:38:57Z
 date_time2 = 2023-02-01T15:38:57
+date_time3 = 2023-02-01T14:38:57-01:00
 date = 2023-02-01
 time = 15:38:57
 array = [1, "string", 3.0, false]
