@@ -1,11 +1,22 @@
-Licenses for third party components bundled by this project can be found below.
+This NOTICE file compiles licenses and notices for code, data, and other
+contents of this software that originate from third parties. In a source
+repository, it covers contents not tracked by the dependency tree or other
+machine-readable manifests; accompanying a distribution, it can also cover the
+dependencies included in it. It is machine-readable and follows the format set
+out in https://github.com/typst/notice (version 1). Tools that can parse this
+file can use it to incorporate it into license notices, Software Bills of
+Materials (SBOMs), etc of their distributions of this software, provided the
+contents within are represented faithfully. Other distributions must reproduce
+this file verbatim.
 
 ================================================================================
-The 0BSD License applies to:
+0BSD --- This license applies to:
 
-* The S-Expression sublime-syntax in `files/syntaxes/SExpressions.sublime-syntax`
-  which is adapted from the S-Expression syntax definition in the Sublime Text
-  package `S-Expressions` (https://github.com/whitequark/Sublime-S-Expressions)
+* The S-Expression sublime-syntax which is adapted from the S-Expression syntax
+  definition in the Sublime Text package `S-Expressions`.
+
+  Path: `files/syntaxes/SExpressions.sublime-syntax`
+  Source: https://github.com/whitequark/Sublime-S-Expressions
 
 BSD Zero Clause License (0BSD)
 
@@ -19,125 +30,215 @@ ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
 WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN
 AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT
 OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
-
 ================================================================================
 
+
 ================================================================================
-The MIT License applies to:
+MIT --- This license applies to:
 
-* The tmTheme in `files/themes/halcyon.tmTheme`
-  Copyright (c) 2018 Brittany Chiang
-  in the Sublime Text package `Halcyon` (https://github.com/bchiang7/Halcyon)
+* The tmTheme in the Sublime Text package `Halcyon`.
 
-The MIT License (MIT)
+  Path: `files/themes/halcyon.tmTheme`
+  Source: https://github.com/bchiang7/Halcyon
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+MIT License
 
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
+Copyright (c) 2018 Brittany Chiang
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ================================================================================
 
+
 ================================================================================
-The SIL Open Font License Version 1.1 applies to:
+OFL-1.1 --- This license applies to:
 
-* IBM Plex fonts in files/fonts/IBMPlex*.{otf,ttf}
-  Copyright © 2017 IBM Corp. with Reserved Font Name "Plex"
-  (https://github.com/IBM/plex)
+* IBM Plex fonts
 
-* Noto fonts in files/fonts/Noto*.{otf,ttf}
-  Copyright 2018 The Noto Project Authors
-  (https://github.com/googlei18n/noto-fonts)
+  Paths: `files/fonts/IBMPlexMath-Regular.otf`,
+         `files/fonts/IBMPlexSans-Bold.ttf`,
+         `files/fonts/IBMPlexSans-Light.ttf`,
+         `files/fonts/IBMPlexSans-Medium.ttf`,
+         `files/fonts/IBMPlexSans-Regular.ttf`,
+         `files/fonts/IBMPlexSansCondensed-Regular.ttf`,
+         `files/fonts/IBMPlexSansDevanagari-Regular.ttf`,
+         `files/fonts/IBMPlexSerif-Regular.ttf`
+  Source: https://github.com/IBM/plex
+  Notice: Copyright © 2017 IBM Corp. with Reserved Font Name "Plex"
 
-* PT Sans fonts in files/fonts/PTSans*.ttf
-  Copyright (c) 2010, ParaType Ltd. (http://www.paratype.com/public),
-  with Reserved Font Names "PT Sans" and "ParaType".
+* Noto fonts
 
-* Inria fonts in files/fonts/Inria*.ttf
-  Copyright 2017 The Inria Sans Project Authors
-  (https://github.com/BlackFoundryCom/InriaFonts)
+  Paths: `files/fonts/NotoColorEmoji-Regular-CBDT.subset.ttf`,
+         `files/fonts/NotoColorEmoji-Regular-COLR.subset.ttf`,
+         `files/fonts/NotoSans-Regular.ttf`,
+         `files/fonts/NotoSansArabic-Regular.ttf`,
+         `files/fonts/NotoSansMath-Regular.ttf`,
+         `files/fonts/NotoSansSymbols2-Regular.ttf`,
+         `files/fonts/NotoSansThai-Regular.ttf`,
+         `files/fonts/NotoSerifCJKjp-Regular.otf`,
+         `files/fonts/NotoSerifCJKkr-Regular.otf`,
+         `files/fonts/NotoSerifCJKsc-Bold.otf`,
+         `files/fonts/NotoSerifCJKsc-Regular.otf`,
+         `files/fonts/NotoSerifCJKtc-Bold.otf`,
+         `files/fonts/NotoSerifCJKtc-Regular.otf`,
+         `files/fonts/NotoSerifHebrew-Bold.ttf`,
+         `files/fonts/NotoSerifHebrew-Regular.ttf`
+  Source: https://github.com/googlei18n/noto-fonts
+  Notice: Copyright 2018 The Noto Project Authors
 
-* Source Serif 4 fonts in files/fonts/SourceSerif4*.otf
-  Copyright 2014 - 2023 Adobe (http://www.adobe.com/),
-  with Reserved Font Name ‘Source’.
+* PT Sans fonts
 
-* XITS fonts in files/fonts/XITS*.otf
-  Copyright (c) 2001-2010, STI Pub Companies, consisting of the American
-  Institute of Physics, the American Chemical Society, the American Mathematical
-  Society, the American Physical Society, Elsevier, Inc., and The Institute of
-  Electrical and Electronic Engineers, Inc. (www.stixfonts.org), with Reserved
-  Font Name STIX Fonts, STIX Fonts (TM) is a trademark of The Institute of
-  Electrical and Electronics Engineers, Inc.
-  Copyright (c) 1998-2003, MicroPress, Inc. (www.micropress-inc.com), with
-  Reserved Font Name TM Math.
-  Copyright (c) 1990, Elsevier, Inc.
-  Copyright (c) 2014, 2015, (URW)++ Design & Development.
-  Copyright (c) 2009-2019, Khaled Hosny.
-  Copyright (c) 2019, Daniel Benjamin Miller.
-  (https://github.com/aliftype/xits)
+  Path: `files/fonts/PTSans-Regular.ttf`
+  Source: http://www.paratype.com/public
+  Notice: Copyright (c) 2010, ParaType Ltd. (http://www.paratype.com/public),
+          with Reserved Font Names "PT Sans" and "ParaType".
 
-* STIX Two fonts in files/fonts/STIXTwo*.otf
-  Copyright 2001-2021 The STIX Fonts Project Authors
-  (https://github.com/stipub/stixfonts), with Reserved Font Name "TM Math".
-  STIX Fonts™ is a trademark of The Institute of Electrical and Electronics
-  Engineers, Inc.
+* Inria fonts
 
-* Cascadia fonts in files/fonts/Cascadia*.ttf
-  Copyright (c) 2019 - Present, Microsoft Corporation,
-  with Reserved Font Name Cascadia Code.
+  Paths: `files/fonts/InriaSerif-Bold.ttf`,
+         `files/fonts/InriaSerif-BoldItalic.ttf`,
+         `files/fonts/InriaSerif-Italic.ttf`,
+         `files/fonts/InriaSerif-Regular.ttf`
+  Source: https://github.com/BlackFoundryCom/InriaFonts
+  Notice: Copyright 2017 The Inria Sans Project Authors
 
-* Libertinus fonts in files/fonts/Libertinus*.otf
-  Copyright © 2012-2024 The Libertinus Project Authors,
-  with Reserved Font Name "Linux Libertine", "Biolinum", "STIX Fonts".
+* Source Serif 4 fonts
 
-* Asana Math font in files/fonts/Asana-Math.otf
-  Copyright (c) 2007-2025, Apostolos Syropoulos (<asyropoulos@yahoo.com),
-  with Reserved Font Name Asana Math.
-  Copyright (c) 2000 Young Ryu,
-  with Reserved Font Name pxfonts.
-  Copyright (c) 1997, 1999 Claudio Beccari,
-  with Reserved Font Name gsmn1000.
+  Paths: `files/fonts/SourceSerif4-Regular.otf`,
+         `files/fonts/SourceSerif4Variable-Italic.otf`,
+         `files/fonts/SourceSerif4Variable-Roman.otf`
+  Source: https://github.com/adobe-fonts/source-serif
+  Notice: Copyright 2014 - 2023 Adobe (http://www.adobe.com/), with Reserved
+          Font Name ‘Source’.
 
-* Pennstander fonts in files/fonts/Pennstander*.otf
-  Copyright 2020 The Grandstander Project Authors
-  (https://github.com/Etcetera-Type-Co/Grandstander)
-  Copyright 2024 Julius Ross
+* XITS fonts
 
-* Concrete Math font in files/fonts/Concrete-Math.otf
-  Copyright 2022-2025 Daniel Flipo
+  Path: `files/fonts/XITSMath-Regular.otf`
+  Source: https://github.com/aliftype/xits
+  Notice: Copyright (c) 2001-2010, STI Pub Companies, consisting of the American
+          Institute of Physics, the American Chemical Society, the American
+          Mathematical Society, the American Physical Society, Elsevier, Inc.,
+          and The Institute of Electrical and Electronic Engineers, Inc.
+          (www.stixfonts.org), with Reserved Font Name STIX Fonts, STIX Fonts
+          (TM) is a trademark of The Institute of Electrical and Electronics
+          Engineers, Inc. Copyright (c) 1998-2003, MicroPress, Inc.
+          (www.micropress-inc.com), with Reserved Font Name TM Math. Copyright
+          (c) 1990, Elsevier, Inc. Copyright (c) 2014, 2015, (URW)++ Design &
+          Development. Copyright (c) 2009-2019, Khaled Hosny. Copyright (c)
+          2019, Daniel Benjamin Miller.
 
-* Garamond Math font in files/fonts/Garamond-Math.otf
+* STIX Two fonts
 
-* HK Grotesk fonts in files/fonts/HKGrotesk*.ttf
-  Copyright (c) 2021 Alfredo Marco Pradil (https://hanken.co/ | hello@hanken.co)
-  with Reserved Font Name HK Grotesk
+  Path: `files/fonts/STIXTwoMath-Regular.otf`
+  Source: https://github.com/stipub/stixfonts
+  Notice: Copyright 2001-2021 The STIX Fonts Project Authors, with Reserved Font
+          Name "TM Math". STIX Fonts™ is a trademark of The Institute of
+          Electrical and Electronics Engineers, Inc.
 
-* Cantarell fonts in files/fonts/Cantarell*.otf
-  Copyright (c) 2009--2019, The Cantarell Authors
+* Cascadia fonts
 
-* Fraunces fonts in files/fonts/Fraunces*.otf
-  Copyright 2018 The Fraunces Project Authors
-  (https://github.com/undercasetype/Fraunces)
+  Paths: `files/fonts/CascadiaCode-Regular.ttf`,
+         `files/fonts/CascadiaMono-Bold.ttf`,
+         `files/fonts/CascadiaMono-Regular.ttf`
+  Source: https://github.com/microsoft/cascadia-code
+  Notice: Copyright (c) 2019 - Present, Microsoft Corporation, with Reserved
+          Font Name Cascadia Code.
 
-* Mona Sans fonts in files/fonts/Mona*.ttf
-  Copyright 2022 The Mona Sans Project Authors
-  (https://github.com/github/mona-sans), with Reserved Font Name "Mona"
+* Libertinus fonts
 
-* Roboto Flex fonts in files/fonts/RobotoFlex*.ttf
-  Copyright 2017 The Roboto Flex Project Authors
-  (https://github.com/TypeNetwork/Roboto-Flex)
+  Path: `files/fonts/LibertinusMath-Regular.otf`
+  Source: https://github.com/alerque/libertinus
+  Notice: Copyright © 2012-2024 The Libertinus Project Authors, with Reserved
+          Font Name "Linux Libertine", "Biolinum", "STIX Fonts".
+
+* Asana Math font
+
+  Path: `files/fonts/Asana-Math.otf`
+  Source: https://ctan.org/pkg/asana-math
+  Notice: Copyright (c) 2007-2025, Apostolos Syropoulos
+          (<asyropoulos@yahoo.com), with Reserved Font Name Asana Math.
+          Copyright (c) 2000 Young Ryu, with Reserved Font Name pxfonts.
+          Copyright (c) 1997, 1999 Claudio Beccari, with Reserved Font Name
+          gsmn1000.
+
+* Pennstander fonts
+
+  Path: `files/fonts/PennstanderMath-Regular.otf`
+  Source: https://github.com/Etcetera-Type-Co/Grandstander
+  Notice: Copyright 2020 The Grandstander Project Authors Copyright 2024 Julius
+          Ross
+
+* Concrete Math font
+
+  Path: `files/fonts/Concrete-Math.otf`
+  Source: https://ctan.org/pkg/concmath-otf
+  Notice: Copyright 2022-2025 Daniel Flipo
+
+* Garamond Math font
+
+  Path: `files/fonts/Garamond-Math.otf`
+  Source: https://github.com/YuanshengZhao/Garamond-Math
+
+* HK Grotesk fonts
+
+  Paths: `files/fonts/HKGrotesk-BlackItalic.ttf`,
+         `files/fonts/HKGrotesk-Bold.ttf`,
+         `files/fonts/HKGrotesk-BoldItalic.ttf`,
+         `files/fonts/HKGrotesk-ExtraBold.ttf`,
+         `files/fonts/HKGrotesk-ExtraBoldItalic.ttf`,
+         `files/fonts/HKGrotesk-ExtraLight.ttf`,
+         `files/fonts/HKGrotesk-ExtraLightItalic.ttf`,
+         `files/fonts/HKGrotesk-Italic.ttf`, `files/fonts/HKGrotesk-Light.ttf`,
+         `files/fonts/HKGrotesk-LightItalic.ttf`,
+         `files/fonts/HKGrotesk-Medium.ttf`,
+         `files/fonts/HKGrotesk-MediumItalic.ttf`,
+         `files/fonts/HKGrotesk-Regular.ttf`,
+         `files/fonts/HKGrotesk-SemiBold.ttf`,
+         `files/fonts/HKGrotesk-SemiBoldItalic.ttf`,
+         `files/fonts/HKGrotesk-Thin.ttf`
+  Source: https://hanken.co/
+  Notice: Copyright (c) 2021 Alfredo Marco Pradil (https://hanken.co/ |
+          hello@hanken.co) with Reserved Font Name HK Grotesk
+
+* Cantarell fonts
+
+  Path: `files/fonts/Cantarell-VF.otf`
+  Source: https://gitlab.gnome.org/GNOME/cantarell-fonts
+  Notice: Copyright (c) 2009--2019, The Cantarell Authors
+
+* Fraunces fonts
+
+  Paths: `files/fonts/Fraunces-Italic[SOFT,WONK,opsz,wght].ttf`,
+         `files/fonts/Fraunces[SOFT,WONK,opsz,wght].ttf`
+  Source: https://github.com/undercasetype/Fraunces
+  Notice: Copyright 2018 The Fraunces Project Authors
+
+* Mona Sans fonts
+
+  Path: `files/fonts/MonaSansVF[wdth,wght,opsz,ital].ttf`
+  Source: https://github.com/github/mona-sans
+  Notice: Copyright 2022 The Mona Sans Project Authors, with Reserved Font Name
+          "Mona"
+
+* Roboto Flex fonts
+
+  Path: `files/fonts/RobotoFlex-VariableFont_GRAD,XOPQ,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght.ttf`
+  Source: https://github.com/TypeNetwork/Roboto-Flex
+  Notice: Copyright 2017 The Roboto Flex Project Authors
 
 -----------------------------------------------------------
 SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
@@ -227,11 +328,14 @@ FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
 OTHER DEALINGS IN THE FONT SOFTWARE.
 ================================================================================
 
-================================================================================
-The Apache License Version 2.0 applies to:
 
-* Roboto fonts in files/fonts/Roboto*.ttf
-  (https://github.com/googlefonts/roboto)
+================================================================================
+Apache-2.0 --- This license applies to:
+
+* Roboto fonts
+
+  Path: `files/fonts/Roboto-Regular.ttf`
+  Source: https://github.com/googlefonts/roboto
 
                                  Apache License
                            Version 2.0, January 2004
@@ -411,11 +515,14 @@ The Apache License Version 2.0 applies to:
    END OF TERMS AND CONDITIONS
 ================================================================================
 
-================================================================================
-The Ubuntu Font License Version 1.0 applies to:
 
-* Ubuntu fonts in files/fonts/Ubuntu*.ttf
-  (https://design.ubuntu.com/font/)
+================================================================================
+Ubuntu-font-1.0 --- This license applies to:
+
+* Ubuntu fonts
+
+  Path: `files/fonts/Ubuntu-Regular.ttf`
+  Source: https://design.ubuntu.com/font/
 
 -------------------------------
 UBUNTU FONT LICENCE Version 1.0
@@ -513,33 +620,37 @@ INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL
 DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER
 DEALINGS IN THE FONT SOFTWARE.
-
 ================================================================================
 
+
 ================================================================================
-The Creative Commons Attribution 4.0 International License applies to:
+CC-BY-4.0 --- This license applies to:
 
-* Twitter Color Emoji font in files/fonts/TwitterColorEmoji.ttf
-  Copyright 2016 Brad Erickson
-  Copyright 2016 Twitter, Inc.
-  (https://github.com/eosrei/twemoji-color-font)
+* Twitter Color Emoji font
 
-* Monkey emoji in files/images/monkey.svg
-  Copyright 2018 Vincent Le Moign, Streamline Emoji Project
-  Via Wikimedia Commons
-  (https://commons.wikimedia.org/wiki/File:440-monkey.svg)
-  Partially minified using SVGO
+  Path: `files/fonts/TwitterColorEmoji.ttf`
+  Source: https://github.com/eosrei/twemoji-color-font
+  Notice: Copyright 2016 Brad Erickson Copyright 2016 Twitter, Inc.
 
-* Moore's law: The number of transistors per microprocessor
-  from Microprocessor Trend Data via Our World in Data
-  Copyright 2022 Karl Rupp
-  (https://github.com/karlrupp/microprocessor-trend-data, https://ourworldindata.org/grapher/transistors-per-microprocessor)
-  Years 1971-1994 deleted
+* Monkey emoji. Via Wikimedia Commons. Partially minified using SVGO.
 
-* "Reiher im Flug" in files/images/heron.jpg
-  Copyright 2023 Makasch1966
-  Via Wikimedia Commons
-  (https://commons.wikimedia.org/wiki/File:Reiher_im_Flug.jpg)
+  Path: `files/images/monkey.svg`
+  Source: https://commons.wikimedia.org/wiki/File:440-monkey.svg
+  Notice: Copyright 2018 Vincent Le Moign, Streamline Emoji Project
+
+* Moore's law: The number of transistors per microprocessor from Microprocessor
+  Trend Data via Our World in Data. Years 1971-1994 deleted.
+
+  Path: `files/data/moore.csv`
+  Source: https://github.com/karlrupp/microprocessor-trend-data
+  Notice: Copyright 2022 Karl Rupp
+  Also see: https://ourworldindata.org/grapher/transistors-per-microprocessor
+
+* "Reiher im Flug". Via Wikimedia Commons.
+
+  Path: `files/images/heron.jpg`
+  Source: https://commons.wikimedia.org/wiki/File:Reiher_im_Flug.jpg
+  Notice: Copyright 2023 Makasch1966
 
 Attribution 4.0 International
 
@@ -936,14 +1047,16 @@ licenses.
 Creative Commons may be contacted at creativecommons.org.
 ================================================================================
 
-================================================================================
-The Data licence Germany – attribution – version 2.0 (Datenlizenz Deutschland – Namensnennung – Version 2.0) applies to:
 
-* "Bruttostromerzeugung nach Energieträgern in Deutschland ab 1990" in
-  files/images/chart-good.png, files/images/chart-bad-regular.png, and
-  files/images/chart-bad-deuteranopia.png
-  Copyright 2025, Statistisches Bundesamt (Destatis)
-  (https://www.destatis.de/DE/Themen/Branchen-Unternehmen/Energie/Erzeugung/bar-chart-race.html)
+================================================================================
+DL-DE-BY-2.0 --- This license applies to:
+
+* "Bruttostromerzeugung nach Energieträgern in Deutschland ab 1990"
+
+  Paths: `files/images/chart-good.png`, `files/images/chart-bad-regular.png`,
+         `files/images/chart-bad-deuteranopia.png`
+  Source: https://www.destatis.de/DE/Themen/Branchen-Unternehmen/Energie/Erzeugung/bar-chart-race.html
+  Notice: Copyright 2025, Statistisches Bundesamt (Destatis)
 
 Data licence Germany – attribution – version 2.0
 
@@ -980,12 +1093,16 @@ the source note.
 URL: http://www.govdata.de/dl-de/by-2-0
 ================================================================================
 
-================================================================================
-The GUST Font License applies to:
 
-* TeX Gyre Math fonts in files/fonts/texgyre*-math.otf
-  Copyright 2013-2014 for TeX Gyre math extensions by B. Jackowski,
-  P. Strzelczyk and P. Pianowski (on behalf of TeX Users Groups).
+================================================================================
+LicenseRef-GUST-Font-License (GUST Font License) --- This license applies to:
+
+* TeX Gyre Math fonts
+
+  Path: `files/fonts/texgyrebonum-math.otf`
+  Source: https://ctan.org/pkg/tex-gyre-math
+  Notice: Copyright 2013-2014 for TeX Gyre math extensions by B. Jackowski, P.
+          Strzelczyk and P. Pianowski (on behalf of TeX Users Groups).
 
 % This is version 1.0, dated 22 June 2009, of the GUST Font License.
 % (GUST is the Polish TeX Users Group, https://www.gust.org.pl)
@@ -1017,11 +1134,14 @@ The GUST Font License applies to:
 % is part of all distributions of LaTeX version 2006/05/20 or later.
 ================================================================================
 
-================================================================================
-The terms below apply to:
 
-* DejaVu fonts in files/fonts/DejaVu*.ttf
-  (https://github.com/dejavu-fonts/dejavu-fonts)
+================================================================================
+Bitstream-Vera --- This license applies to:
+
+* DejaVu fonts
+
+  Paths: `files/fonts/DejaVuSans-Oblique.ttf`, `files/fonts/DejaVuSans.ttf`
+  Source: https://github.com/dejavu-fonts/dejavu-fonts
 
 Fonts are (c) Bitstream (see below). DejaVu changes are in public domain.
 Glyphs imported from Arev fonts are (c) Tavmjong Bah (see below)
@@ -1212,12 +1332,14 @@ given a different name.
 $Id$
 ================================================================================
 
-================================================================================
-The  LaTeX Project Public License applies to:
 
-* The Unicode math data file in `files/latex/unicode-math-table.tex`
-  Copyright 1999 2002-2008 LaTeX3 Project
-  (https://ctan.org/pkg/unicode-math)
+================================================================================
+LPPL-1.3c --- This license applies to:
+
+* The Unicode math data file
+
+  Path: `files/latex/unicode-math-table.tex`
+  Source: https://ctan.org/pkg/unicode-math
 
 The LaTeX Project Public License
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
@@ -1634,16 +1756,17 @@ Important Recommendations
    to comprise the Work and, in such a case, the licensee would be
    entitled to make reasonable conjectures as to which files comprise
    the Work.
+================================================================================
 
 
 ================================================================================
+Unicode-3.0 --- This license applies to:
 
-================================================================================
-The Unicode License v3 applies to:
-
-* The Unicode data file in `files/text/emoji-zwj-sequences.txt`, which is
-  downloaded from
+* The Unicode data file, which is downloaded from
   https://www.unicode.org/Public/17.0.0/emoji/emoji-zwj-sequences.txt.
+
+  Path: `files/text/emoji-zwj-sequences.txt`
+  Source: https://www.unicode.org/Public/17.0.0/emoji/emoji-zwj-sequences.txt
 
 UNICODE LICENSE V3
 
@@ -1684,16 +1807,17 @@ Except as contained in this notice, the name of a copyright holder shall
 not be used in advertising or otherwise to promote the sale, use or other
 dealings in these Data Files or Software without prior written
 authorization of the copyright holder.
-
 ================================================================================
 
-================================================================================
-The Unsplash License applies to:
 
-* "A lynx standing in the middle of a forest" in files/images/lynx.jpg
-  Copyright 2024 Pascal Bullan (@jetztabertempo)
-  Via Unsplash
-  (https://unsplash.com/photos/a-lynx-standing-in-the-middle-of-a-forest-6njkAeHHMOE)
+================================================================================
+LicenseRef-Unsplash-License (Unsplash License) --- This license applies to:
+
+* "A lynx standing in the middle of a forest". Via Unsplash.
+
+  Path: `files/images/lynx.jpg`
+  Source: https://unsplash.com/photos/a-lynx-standing-in-the-middle-of-a-forest-6njkAeHHMOE
+  Notice: Copyright 2024 Pascal Bullan (@jetztabertempo)
 
 The Unsplash License
 
