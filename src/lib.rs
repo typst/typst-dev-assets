@@ -4,7 +4,7 @@
 
 macro_rules! files {
     ($($path:literal),* $(,)?) => {
-        const FILES: &[(&str, &[u8])] = &[
+        static FILES: &[(&str, &[u8])] = &[
             $((
                 $path,
                 include_bytes!(concat!("../files/", $path)).as_slice(),
